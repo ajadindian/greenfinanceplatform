@@ -1,0 +1,98 @@
+{
+    "Answer": "**Increase in Total Project Cost Due to Cement Cost Escalation**\n\nTo calculate the increase in the total project cost due to a 25% escalation in the cost of cement, we need to determine the additional cost incurred due to this price increase.\n\n**Current Cement Cost Calculation:**\n- **Current Unit Cost of Cement:** ₹360 per bag\n- **Quantity Required:** 8000 bags\n- **Current Total Cost of Cement:** ₹28.8 lakh\n\n**Escalated Cement Cost Calculation:**\n- **Escalation Percentage:** 25%\n- **New Unit Cost of Cement:** ₹360 + (25% of ₹360) = ₹360 + ₹90 = ₹450 per bag\n- **New Total Cost of Cement:** 8000 bags * ₹450 per bag = ₹36 lakh\n\n**Increase in Cement Cost:**\n- **Increase in Total Cost of Cement:** ₹36 lakh - ₹28.8 lakh = ₹7.2 lakh\n\n**Impact on Total Project Cost:**\n- **Current Total Project Cost:** ₹136.24 crore\n- **New Total Project Cost:** ₹136.24 crore + ₹7.2 lakh = ₹136.312 crore\n\nTherefore, the increase in the total project cost due to a 25% escalation in the cost of cement is ₹7.2 lakh, leading to a new total project cost of ₹136.312 crore.",
+    "Dashboard": [
+        {
+            "Name": "Cement Cost Escalation Impact",
+            "Type": "DoubleBarChart",
+            "is_prediction": true,
+            "X_axis_label": "Cost Type",
+            "Y_axis_label": "Cost (INR in lakh)",
+            "X_axis_data": [
+                "Current Cement Cost",
+                "Escalated Cement Cost"
+            ],
+            "Y_axis_data": [
+                28.8,
+                36
+            ],
+            "Y_axis_data_secondary": [
+                28.8,
+                36
+            ],
+            "Forecasted_X_axis_data": [
+                "Total Project Cost Before",
+                "Total Project Cost After"
+            ],
+            "Forecasted_Y_axis_data": [
+                13624,
+                13631.2
+            ],
+            "Labels": [],
+            "Values": [],
+            "Column_headers": [],
+            "Row_data": []
+        },
+        {
+            "Name": "Cement Cost Escalation Impact",
+            "Type": "MulticolorLineChart",
+            "is_prediction": true,
+            "X_axis_label": "Cost Type",
+            "Y_axis_label": "Cost (INR in lakh)",
+            "X_axis_data": [
+                "Current Cement Cost",
+                "Escalated Cement Cost"
+            ],
+            "Y_axis_data": [
+                28.8,
+                36
+            ],
+            "Y_axis_data_secondary": [
+                28.8,
+                36
+            ],
+            "Forecasted_X_axis_data": [
+                "Total Project Cost Before",
+                "Total Project Cost After"
+            ],
+            "Forecasted_Y_axis_data": [
+                13624,
+                13631.2
+            ],
+            "Labels": [],
+            "Values": [],
+            "Column_headers": [],
+            "Row_data": []
+        },
+        {
+            "Name": "Cement Cost Escalation Impact",
+            "Type": "Table",
+            "is_prediction": false,
+            "X_axis_label": "",
+            "Y_axis_label": "",
+            "X_axis_data": [],
+            "Y_axis_data": [],
+            "Y_axis_data_secondary": [],
+            "Forecasted_X_axis_data": null,
+            "Forecasted_Y_axis_data": null,
+            "Labels": [],
+            "Values": [],
+            "Column_headers": [
+                "Cost Type",
+                "Current Cost (INR in lakh)",
+                "Escalated Cost (INR in lakh)"
+            ],
+            "Row_data": [
+                [
+                    "Cement Cost",
+                    "28.8",
+                    "36"
+                ],
+                [
+                    "Total Project Cost",
+                    "13624",
+                    "13631.2"
+                ]
+            ]
+        }
+    ]
+}

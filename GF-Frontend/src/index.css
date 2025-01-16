@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --chart-bg: white;
+  --chart-text: #374151;
+  --chart-grid: #E5E7EB;
+  --chart-primary: rgb(13, 148, 136);
+  --chart-primary-light: rgba(13, 148, 136, 0.5);
+}
+
+[data-theme='dark'] {
+  --chart-bg: #1F2937;
+  --chart-text: #E5E7EB;
+  --chart-grid: #374151;
+  --chart-primary: rgb(45, 212, 191);
+  --chart-primary-light: rgba(45, 212, 191, 0.5);
+}
+
+/* Add this to your global CSS file */
+.no-select {
+  user-select: none;
+}
