@@ -1,0 +1,29 @@
+data_processing:
+  chunk_size: 1000
+  max_memory_usage: "2GB"
+  supported_formats:
+    - xlsx
+    - xls
+    - csv
+  cleaning_rules:
+    remove_empty: true
+    standardize_columns: true
+    handle_missing: true
+
+knowledge_base:
+  embedding_model: "text-embedding-3-small"
+  vector_similarity_threshold: 0.8
+  max_tokens_per_chunk: 1000
+  index_batch_size: 100
+
+retrieval:
+  max_results: 5
+  similarity_threshold: 0.7
+  context_window_size: 3
+  reranking_enabled: true
+
+analytics:
+  update_frequency: "1h"
+  alert_threshold: 0.15
+  forecast_window: "30d"
+  confidence_threshold: 0.8 

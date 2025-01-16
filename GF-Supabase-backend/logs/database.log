@@ -1,0 +1,22 @@
+2025-01-15 17:48:27,480 - database - INFO - Initializing database
+2025-01-15 17:48:27,503 - database - WARNING - Corrupted database file: companies.json, reinitializing
+2025-01-15 17:48:27,505 - database - WARNING - Corrupted database file: projects.json, reinitializing
+2025-01-15 17:48:27,506 - database - WARNING - Corrupted database file: charts.json, reinitializing
+2025-01-15 17:48:27,508 - database - WARNING - Corrupted database file: prompts.json, reinitializing
+2025-01-15 17:48:27,509 - database - INFO - Database initialization complete
+2025-01-15 18:28:46,377 - database - INFO - Initializing database
+2025-01-15 18:28:46,382 - database - INFO - Database initialization complete
+2025-01-15 18:30:02,988 - database - INFO - Initializing database
+2025-01-15 18:30:02,996 - database - INFO - Database initialization complete
+2025-01-15 18:40:01,216 - database - INFO - Initializing database
+2025-01-15 18:40:01,219 - database - INFO - Database initialization complete
+2025-01-15 18:40:53,915 - database - INFO - Initializing database
+2025-01-15 18:40:53,920 - database - INFO - Database initialization complete
+2025-01-15 18:41:14,440 - database - INFO - Initializing database
+2025-01-15 18:41:14,448 - database - INFO - Database initialization complete
+2025-01-15 18:56:21,946 - database - INFO - Initializing database
+2025-01-15 18:56:21,949 - database - INFO - Database initialization complete
+2025-01-15 18:56:43,626 - database - INFO - Initializing database
+2025-01-15 18:56:43,629 - database - INFO - Database initialization complete
+2025-01-15 18:59:18,694 - database - INFO - {"message": "Saving file metadata for project 1", "extra": {"file_name": "18-59-17_multi_server_metrics_20250108_102347.csv", "relative_path": "2025-01-15"}}
+2025-01-15 18:59:18,696 - database - INFO - File metadata saved successfully

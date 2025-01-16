@@ -1,0 +1,25 @@
+2025-01-15 18:29:30,650 - supabase - INFO - Initializing Supabase connection
+2025-01-15 18:29:57,626 - supabase - INFO - Supabase initialization complete
+2025-01-15 18:30:15,598 - supabase - INFO - Initializing Supabase connection
+2025-01-15 18:30:22,372 - supabase - INFO - Supabase initialization complete
+2025-01-15 18:40:12,605 - supabase - INFO - Initializing Supabase connection
+2025-01-15 18:40:18,845 - supabase - INFO - Supabase initialization complete
+2025-01-15 18:41:04,750 - supabase - INFO - Initializing Supabase connection
+2025-01-15 18:41:10,658 - supabase - INFO - Supabase initialization complete
+2025-01-15 18:41:25,399 - supabase - INFO - Initializing Supabase connection
+2025-01-15 18:41:35,434 - supabase - INFO - Supabase initialization complete
+2025-01-15 18:45:17,484 - supabase - INFO - {"message": "Adding document for project 1", "extra": {"content_length": 13082, "has_metadata": true}}
+2025-01-15 18:45:18,543 - supabase - ERROR - {"message": "Error adding document: {}", "extra": {"project_id": 1}}
+Traceback (most recent call last):
+  File "D:\GreenFinance\GreenFinance\GF-Supabase-backend\supabase_manager.py", line 122, in add_document
+    result = self.supabase.table("documents").insert(data).execute()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AJAD\AppData\Local\Programs\Python\Python312\Lib\site-packages\postgrest\_sync\request_builder.py", line 78, in execute
+    raise APIError(r.json())
+postgrest.exceptions.APIError: {}
+2025-01-15 18:56:33,406 - supabase - INFO - Initializing Supabase connection
+2025-01-15 18:56:39,720 - supabase - INFO - Supabase initialization complete
+2025-01-15 18:56:54,706 - supabase - INFO - Initializing Supabase connection
+2025-01-15 18:56:59,836 - supabase - INFO - Supabase initialization complete
+2025-01-15 18:59:17,178 - supabase - INFO - {"message": "Adding document for project 1", "extra": {"content_length": 13082, "has_metadata": true}}
+2025-01-15 18:59:18,690 - supabase - INFO - Document added successfully to project 1

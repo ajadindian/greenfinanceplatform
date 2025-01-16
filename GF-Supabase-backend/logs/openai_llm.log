@@ -1,0 +1,41 @@
+2025-01-15 19:00:00,001 - openai_llm - INFO - {"message": "Processing AI response", "extra": {"prompt_length": 19, "data_length": 13082}}
+2025-01-15 19:00:04,751 - openai_llm - INFO - Raw API Response: {
+    "Answer": "The total CO2 emission is the sum of all CO2 emissions from CPU, RAM, disk base, and disk I/O across all records. The total CO2 emission is approximately 0.000344 kg.",
+    "Dashboard": [
+        {
+            "Name": "CO2 Emission by Component",
+            "Type": "BarChart",
+            "is_prediction": false,
+            "X_axis_label": "Component",
+            "Y_axis_label": "CO2 Emission (kg)",
+            "X_axis_data": ["CPU", "RAM", "Disk Base", "Disk I/O"],
+          ...
+2025-01-15 19:00:04,755 - openai_llm - INFO - AI response validated successfully
+2025-01-15 19:02:00,068 - openai_llm - INFO - {"message": "Processing AI response", "extra": {"prompt_length": 59, "data_length": 13082}}
+2025-01-15 19:02:14,739 - openai_llm - INFO - Raw API Response: {
+    "Answer": "The total CO2 emission by Linux OS is approximately 0.000172 kg. The number of Linux servers is 1.",
+    "Dashboard": [
+        {
+            "Name": "CO2 Emission by Linux OS",
+            "Type": "BarChart",
+            "is_prediction": false,
+            "X_axis_label": "Timestamp",
+            "Y_axis_label": "CO2 Emission (kg)",
+            "X_axis_data": ["2025-01-08 10:22:29.187180", "2025-01-08 10:22:31.590818", "2025-01-08 10:22:33.824156", "2025-01-08 10:22:36.128702",...
+2025-01-15 19:02:14,742 - openai_llm - INFO - AI response validated successfully
+2025-01-15 19:04:08,463 - openai_llm - INFO - {"message": "Processing AI response", "extra": {"prompt_length": 62, "data_length": 13082}}
+2025-01-15 19:04:14,950 - openai_llm - INFO - Raw API Response: {
+    "Answer": "The total CO2 emission by Windows OS is 0.000193198 kg. The number of Windows servers is 3.",
+    "Dashboard": [
+        {
+            "Name": "CO2 Emission by Windows OS",
+            "Type": "PieChart",
+            "is_prediction": false,
+            "X_axis_label": "",
+            "Y_axis_label": "",
+            "X_axis_data": [],
+            "Y_axis_data": [],
+            "Y_axis_data_secondary": [],
+            "Forecasted_X_axis_data": [],
+            "Forecasted_Y_axis_da...
+2025-01-15 19:04:14,956 - openai_llm - INFO - AI response validated successfully
